@@ -15,14 +15,15 @@ brew install zookeeper
 查看状态是：zkServer status
 停止服务：zkServer stop
 
-## 1.2 安装kafka
+## 1.2 使用 brew 安装kafka
 
 brew install kafka
 
 kafka的安装目录：/usr/local/Cellar/kafka/2.1.1/bin
+
 kafka的配置目录：/usr/local/etc/kafka
 
-# 2、启动kafka
+# 2、启动kafka 和 zookeeper
 *(先启动zookeeper，然后启动kafka，关闭服务的顺序正好相反，先关闭kafka，然后是关闭zookeeper)*
 ```
 首先启动zookeeper
