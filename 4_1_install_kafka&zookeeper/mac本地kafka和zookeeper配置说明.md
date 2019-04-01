@@ -68,3 +68,7 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic new_build_1 --f
 
 所以推荐使用如下命令关闭：
 **brew services stop kafka** 、 **brew services stop zookeeper**
+
+或者是到kafka/bin目录下：执行kafka-server-stop
+
+然后执行：zookeeper-server-stop
